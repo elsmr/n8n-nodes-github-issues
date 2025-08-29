@@ -1,5 +1,7 @@
 # n8n-nodes-github-issues
 
+NOTE: n8n has a built in GitHub node, this node is just a demo community node
+
 This is an n8n community node. It lets you use GitHub Issues in your n8n workflows.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
@@ -18,11 +20,11 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 ## Operations
 
 - Issues
-    - Get an issue
-    - Get many issues in a repository
-    - Create a new issue
+  - Get an issue
+  - Get many issues in a repository
+  - Create a new issue
 - Issue Comments
-    - Get many issue comments
+  - Get many issue comments
 
 ## Credentials
 
@@ -37,7 +39,7 @@ You can use either access token or OAuth2 to use this node.
 5. Enter a descriptive name for your token in the Note field, like n8n integration.
 6. Select the Expiration you'd like for the token, or select No expiration.
 7. Select Scopes for your token. For most of the n8n GitHub nodes, add the `repo` scope.
-    - A token without assigned scopes can only access public information.
+   - A token without assigned scopes can only access public information.
 8. Select Generate token.
 9. Copy the token.
 
@@ -53,7 +55,7 @@ If you're self-hosting n8n, create a new GitHub [OAuth app](https://docs.github.
 2. In the left navigation, select [Developer settings](https://github.com/settings/apps).
 3. In the left navigation, select OAuth apps.
 4. Select New OAuth App.
-    - If you haven't created an app before, you may see Register a new application instead. Select it.
+   - If you haven't created an app before, you may see Register a new application instead. Select it.
 5. Enter an Application name, like n8n integration.
 6. Enter the Homepage URL for your app's website.
 7. If you'd like, add the optional Application description, which GitHub displays to end-users.
@@ -69,5 +71,5 @@ Compatible with n8n@1.60.0 or later
 
 ## Resources
 
-* [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
-* [GitHub API docs](https://docs.github.com/en/rest/issues)
+- [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
+- [GitHub API docs](https://docs.github.com/en/rest/issues)
