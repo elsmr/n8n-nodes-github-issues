@@ -1,6 +1,7 @@
 # n8n-nodes-github-issues
 
-NOTE: n8n has a built in GitHub node, this node is just a demo community node
+> ⚠️ **Note:** n8n already ships with a built-in **GitHub** node.
+> This package is **just a demo community node** – mainly for learning, experimenting, and extending.
 
 This is an n8n community node. It lets you use GitHub Issues in your n8n workflows.
 
