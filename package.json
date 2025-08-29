@@ -3,7 +3,7 @@
 	"version": "0.1.1",
 	"description": "n8n community node to work with the GitHub Issues API",
 	"license": "MIT",
-	"homepage": "https://example.com",
+	"homepage": "https://github.com/elsmr/n8n-nodes-github-issues",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git+https://github.com/elsmr/n8n-nodes-github-issues.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
